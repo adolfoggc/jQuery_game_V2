@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 0;
+}
+
+
+
+.map-area {
+	background-color: #00afb1;
+	width: 100vh;
+	height: 100vh;
+	display: inline-block;
+}
+
+.lateral {
+	background-color: #e77404;
+	min-width: 77vh;
+	height: 100vh;
+	display: inline-block;
+}
