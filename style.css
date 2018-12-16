@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
+	max-height: 100vh;
 }
 
 
@@ -17,6 +18,7 @@ body {
 	background-color: #e77404;
 	min-width: 77vh;
 	height: 100vh;
+	max-height: 100vh;
 	display: inline-block;
 	float: right;
 }
@@ -31,4 +33,18 @@ body {
 	min-width: 77vh;
 	display: block;
 	text-align: center; 
+}
+
+.submenu {
+	display: none;
+	line-height: 20vh;
+	height: 20vh;
+	font-size: 1em;
+}
+
+#selected_menu {
+	line-height: 20vh;
+	height: 20vh;
+	font-size: 1em;
+	display: block;	
 }
