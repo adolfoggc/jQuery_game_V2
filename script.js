@@ -19,6 +19,7 @@ function fit_screen() {
 	new_width = $(window).width() - $(window).height();
 	$(".lateral").css("width", new_width);
 	$(".menu-area").css("width", new_width);
+	$(".lateral").css("left", new_width);
 };
 
 function expand_menu(){
